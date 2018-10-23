@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Sign in</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <script crossorigin src="https://unpkg.com/axios@0.18.0/dist/axios.min.js"></script>
+  <script crossorigin src="https://unpkg.com/jssha@2.3.1/src/sha.js"></script>
+  <link rel="stylesheet" href="style_james.css">
+</head>
+<body>
+  <nav class="navbar fixed-bottom navbar-light bg-light" style="margin-top:10%; background-color:red;">
+    <span class="text-muted">Place sticky footer content here.</span>
+  </nav>
+
+  <nav class="sticky-top navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="template.html">Home Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="landing.html">Dasboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Payments_beneficiaries.html">Payments<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="buy2.html">Buy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="transfers_initial.html">Transfer</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="manage_accounts.html">Manage accounts</a>
+        </li>
+      </ul>
+      <form class="form-inline">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1>Sign in</h1>
+  </div>
+
+  <div id="sign_in" class="my_center card bg-light">
+
+    <label>Username</label>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" placeholder="1405213" aria-label="Username">
+    </div>
+
+    <label for="basic-url">Password</label>
+    <div class="input-group mb-3">
+      <input type="password" class="form-control" placeholder="john12!" aria-label="password">
+    </div>
+
+    <button type="button" class="btn btn-secondary">Sign in</button>
+
+    <div id="create_profile_link" style="margin-top: 5%;">
+      <h6>Don't have profile? <a href="create_profile.html">Create one here</a></h6>
+    </div>
+
+  </div>
+
+
+
+
+</body>
+</html>

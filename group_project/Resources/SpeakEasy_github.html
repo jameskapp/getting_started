@@ -1,0 +1,2150 @@
+<!DOCTYPE html>
+<!-- saved from url=(0054)https://github.com/speakeasyjs/speakeasy#documentation -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+  <link rel="dns-prefetch" href="https://assets-cdn.github.com/">
+  <link rel="dns-prefetch" href="https://avatars0.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars1.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars2.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://avatars3.githubusercontent.com/">
+  <link rel="dns-prefetch" href="https://github-cloud.s3.amazonaws.com/">
+  <link rel="dns-prefetch" href="https://user-images.githubusercontent.com/">
+
+
+
+  <link crossorigin="anonymous" media="all" integrity="sha512-Z0JAar9+DkI1NjGVdZr3GivARUgJtA0o2eHlTv7Ou2gshR5awWVf8QGsq11Ns9ZxQLEs+G5/SuARmvpOLMzulw==" rel="stylesheet" href="./SpeakEasy_github_files/frameworks-95aff0b550d3fe338b645a4deebdcb1b.css">
+  <link crossorigin="anonymous" media="all" integrity="sha512-cPNe2ujxkLVIsIfpqsGH3fmUuiNQ3wfPV8niT1uB9ziMQTNwKSHIyIBZk4ZAkIYydrF798X7+JQlreQlMNkYXg==" rel="stylesheet" href="./SpeakEasy_github_files/github-9fe41072c7eb61e44d5923e65f8af9fa.css">
+  
+  
+  <link crossorigin="anonymous" media="all" integrity="sha512-2ThuYzT4A4rqWiPrSjHGQiV5pWat6IhKBOQbt3SI++BucjSUbJlzSD2S9h0pM5UHlP1KpvSk9YtKp0JinP+yVQ==" rel="stylesheet" href="./SpeakEasy_github_files/site-2dc8680244624c331677d1cfd1af7370.css">
+  
+
+  <meta name="viewport" content="width=device-width">
+  
+  <title>GitHub - speakeasyjs/speakeasy: Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator.</title>
+    <meta name="description" content="Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator. - speakeasyjs/speakeasy">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://github.com/opensearch.xml" title="GitHub">
+  <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+  <meta property="fb:app_id" content="1401488693436528">
+
+    
+    <meta property="og:image" content="https://avatars0.githubusercontent.com/u/16343032?s=400&amp;v=4"><meta property="og:site_name" content="GitHub"><meta property="og:type" content="object"><meta property="og:title" content="speakeasyjs/speakeasy"><meta property="og:url" content="https://github.com/speakeasyjs/speakeasy"><meta property="og:description" content="Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator. - speakeasyjs/speakeasy">
+
+  <link rel="assets" href="https://assets-cdn.github.com/">
+  
+  <meta name="pjax-timeout" content="1000">
+  
+  <meta name="request-id" content="F60B:4266:1797235:26B125D:5B954CE4" data-pjax-transient="">
+
+
+  
+
+  <meta name="selected-link" value="repo_source" data-pjax-transient="">
+
+      <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-site-verification" content="ZzhVyEFwb7w3e0-uOTltm8Jsck2F5StVihD0exw2fsA">
+    <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
+
+  <meta name="octolytics-host" content="collector.githubapp.com"><meta name="octolytics-app-id" content="github"><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event"><meta name="octolytics-dimension-request_id" content="F60B:4266:1797235:26B125D:5B954CE4"><meta name="octolytics-dimension-region_edge" content="iad"><meta name="octolytics-dimension-region_render" content="iad">
+<meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;" data-pjax-transient="true">
+
+
+
+    <meta name="google-analytics" content="UA-3769691-2">
+
+
+<meta class="js-ga-set" name="dimension1" content="Logged Out">
+
+
+
+  
+
+      <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <meta name="expected-hostname" content="github.com">
+    <meta name="js-proxy-site-detection-payload" content="Yjk4MGRmZjFlNzY5ZGIxMTljM2Y3ZmJkODY1YjEwMmVjN2NlNTAzODYxNzQ2MDUyMGRmZGQ0OThlY2NjYmExMHx7InJlbW90ZV9hZGRyZXNzIjoiMTk3LjI0NS4yMzkuOTciLCJyZXF1ZXN0X2lkIjoiRjYwQjo0MjY2OjE3OTcyMzU6MjZCMTI1RDo1Qjk1NENFNCIsInRpbWVzdGFtcCI6MTUzNjUxMTIwNCwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+
+    <meta name="enabled-features" content="DASHBOARD_V2_LAYOUT_OPT_IN,EXPLORE_DISCOVER_REPOSITORIES,UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_PLAN_RESTRICTION_EDITOR,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES">
+
+  <meta name="html-safe-nonce" content="2eadd978f9b3300332b5e14e84066a39ed0a760c">
+
+  <meta http-equiv="x-pjax-version" content="6b7e6d96a2f79f5bade0db1e03a49484">
+  
+
+      <link href="https://github.com/speakeasyjs/speakeasy/commits/master.atom" rel="alternate" title="Recent Commits to speakeasy:master" type="application/atom+xml">
+
+  <meta name="go-import" content="github.com/speakeasyjs/speakeasy git https://github.com/speakeasyjs/speakeasy.git">
+
+  <meta name="octolytics-dimension-user_id" content="16343032"><meta name="octolytics-dimension-user_login" content="speakeasyjs"><meta name="octolytics-dimension-repository_id" content="2701167"><meta name="octolytics-dimension-repository_nwo" content="speakeasyjs/speakeasy"><meta name="octolytics-dimension-repository_public" content="true"><meta name="octolytics-dimension-repository_is_fork" content="false"><meta name="octolytics-dimension-repository_network_root_id" content="2701167"><meta name="octolytics-dimension-repository_network_root_nwo" content="speakeasyjs/speakeasy"><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false">
+
+
+    <link rel="canonical" href="https://github.com/speakeasyjs/speakeasy" data-pjax-transient="">
+
+
+  <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+
+  <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+
+  <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#000000">
+  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+
+<meta name="theme-color" content="#1e2327">
+
+
+  <meta name="u2f-support" content="true">
+
+  <link rel="manifest" href="https://github.com/manifest.json" crossorigin="use-credentials">
+
+  </head>
+
+  <body class="logged-out env-production intent-mouse">
+    
+
+  <div class="position-relative js-header-wrapper ">
+    <a href="https://github.com/speakeasyjs/speakeasy#start-of-content" tabindex="1" class="px-2 py-4 bg-blue text-white show-on-focus js-skip-to-content">Skip to content</a>
+    <div id="js-pjax-loader-bar" class="pjax-loader-bar"><div class="progress"></div></div>
+
+    
+    
+    
+
+
+
+        
+
+
+  <header class="Header header-logged-out  position-relative f4 py-3" role="banner">
+    <div class="container-lg d-flex px-3">
+      <div class="d-flex flex-justify-between flex-items-center">
+        <a class="header-logo-invertocat my-0" href="https://github.com/" aria-label="Homepage" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark; experiment:site_header_dropdowns; group:control">
+          <svg height="32" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="32" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+        </a>
+
+      </div>
+
+      <div class="HeaderMenu d-flex flex-justify-between flex-auto">
+          <nav class="mt-0">
+            <ul class="d-flex list-style-none">
+                <li class="ml-2">
+                  <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:features; experiment:site_header_dropdowns; group:control" data-selected-links="/features /features/project-management /features/code-review /features/project-management /features/integrations /features" href="https://github.com/features">
+                    Features
+</a>                </li>
+                <li class="ml-4">
+                  <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:business; experiment:site_header_dropdowns; group:control" data-selected-links="/business /business/security /business/customers /business" href="https://github.com/business">
+                    Business
+</a>                </li>
+
+                <li class="ml-4">
+                  <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:explore; experiment:site_header_dropdowns; group:control" data-selected-links="/explore /trending /trending/developers /integrations /integrations/feature/code /integrations/feature/collaborate /integrations/feature/ship showcases showcases_search showcases_landing /explore" href="https://github.com/explore">
+                    Explore
+</a>                </li>
+
+                <li class="ml-4">
+                      <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:marketplace; experiment:site_header_dropdowns; group:control" data-selected-links=" /marketplace" href="https://github.com/marketplace">
+                        Marketplace
+</a>                </li>
+                <li class="ml-4">
+                  <a class="js-selected-navigation-item HeaderNavlink px-0 py-2 m-0" data-ga-click="Header, click, Nav menu - item:pricing; experiment:site_header_dropdowns; group:control" data-selected-links="/pricing /pricing/developer /pricing/team /pricing/business-hosted /pricing/business-enterprise /pricing" href="https://github.com/pricing">
+                    Pricing
+</a>                </li>
+            </ul>
+          </nav>
+
+        <div class="d-flex">
+            <div class="d-lg-flex flex-items-center mr-3">
+              <div class="header-search scoped-search site-scoped-search js-site-search position-relative js-jump-to" role="search combobox" aria-owns="jump-to-results" aria-label="Search or jump to" aria-haspopup="listbox" aria-expanded="true">
+  <div class="position-relative">
+    <!-- '"` --><!-- </textarea></xmp> --><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="2701167" data-scoped-search-url="/speakeasyjs/speakeasy/search" data-unscoped-search-url="/search" action="https://github.com/speakeasyjs/speakeasy/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="✓">
+      <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
+        <input type="text" class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable" data-hotkey="s,/" name="q" value="" placeholder="Search" data-unscoped-placeholder="Search GitHub" data-scoped-placeholder="Search" autocapitalize="off" aria-autocomplete="list" aria-controls="jump-to-results" data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=whq90iBadpwsP3Bl27Tix4Rrk30feWT+guTdCW0pevHO+P0hi2cKShO7KHXsx4IXDviDkMgCevY+0YGQZnpNLw==" spellcheck="false" autocomplete="off">
+          <input type="hidden" class="js-site-search-type-field" name="type">
+            <img src="./SpeakEasy_github_files/search-shortcut-hint.svg" alt="" class="mr-2 header-search-key-slash">
+
+            <div class="Box position-absolute overflow-hidden d-none jump-to-suggestions js-jump-to-suggestions-container">
+              <ul class="d-none js-jump-to-suggestions-template-container">
+                <li class="d-flex flex-justify-start flex-items-center p-0 f5 navigation-item js-navigation-item">
+                  <a tabindex="-1" class="no-underline d-flex flex-auto flex-items-center p-2 jump-to-suggestions-path js-jump-to-suggestion-path js-navigation-open" href="https://github.com/speakeasyjs/speakeasy">
+                    <div class="jump-to-octicon js-jump-to-octicon mr-2 text-center d-none">
+                      <svg height="16" width="16" class="octicon octicon-repo flex-shrink-0 js-jump-to-octicon-repo d-none" title="Repository" aria-label="Repository" viewBox="0 0 12 16" version="1.1" role="img"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+                      <svg height="16" width="16" class="octicon octicon-project flex-shrink-0 js-jump-to-octicon-project d-none" title="Project" aria-label="Project" viewBox="0 0 15 16" version="1.1" role="img"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+                      <svg height="16" width="16" class="octicon octicon-search flex-shrink-0 js-jump-to-octicon-search d-none" title="Search" aria-label="Search" viewBox="0 0 16 16" version="1.1" role="img"><path fill-rule="evenodd" d="M15.7 13.3l-3.81-3.83A5.93 5.93 0 0 0 13 6c0-3.31-2.69-6-6-6S1 2.69 1 6s2.69 6 6 6c1.3 0 2.48-.41 3.47-1.11l3.83 3.81c.19.2.45.3.7.3.25 0 .52-.09.7-.3a.996.996 0 0 0 0-1.41v.01zM7 10.7c-2.59 0-4.7-2.11-4.7-4.7 0-2.59 2.11-4.7 4.7-4.7 2.59 0 4.7 2.11 4.7 4.7 0 2.59-2.11 4.7-4.7 4.7z"></path></svg>
+                    </div>
+
+                    <img class="avatar mr-2 flex-shrink-0 js-jump-to-suggestion-avatar d-none" alt="" aria-label="Team" src="https://github.com/speakeasyjs/speakeasy" width="28" height="28">
+
+                    <div class="jump-to-suggestion-name js-jump-to-suggestion-name flex-auto overflow-hidden text-left no-wrap css-truncate css-truncate-target">
+                    </div>
+
+                    <div class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none js-jump-to-badge-search">
+                      <span class="js-jump-to-badge-search-text-default d-none" aria-label="in this repository">
+                        In this repository
+                      </span>
+                      <span class="js-jump-to-badge-search-text-global d-none" aria-label="in all of GitHub">
+                        All GitHub
+                      </span>
+                      <span aria-hidden="true" class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+
+                    <div aria-hidden="true" class="border rounded-1 flex-shrink-0 bg-gray px-1 text-gray-light ml-1 f6 d-none d-on-nav-focus js-jump-to-badge-jump">
+                      Jump to
+                      <span class="d-inline-block ml-1 v-align-middle">↵</span>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+              <ul class="d-none js-jump-to-no-results-template-container">
+                <li class="d-flex flex-justify-center flex-items-center p-3 f5 d-none">
+                  <span class="text-gray">No suggested jump to results</span>
+                </li>
+              </ul>
+
+              <ul id="jump-to-results" class="js-navigation-container jump-to-suggestions-results-container js-jump-to-suggestions-results-container">
+                <li class="d-flex flex-justify-center flex-items-center p-0 f5">
+                  <img src="./SpeakEasy_github_files/octocat-spinner-128.gif" alt="Octocat Spinner Icon" class="m-2" width="28">
+                </li>
+              </ul>
+            </div>
+      </label>
+</form>  </div>
+</div>
+
+            </div>
+
+          <span class="d-inline-block">
+              <div class="HeaderNavlink px-0 py-2 m-0">
+                <a class="text-bold text-white no-underline" href="https://github.com/login?return_to=%2Fspeakeasyjs%2Fspeakeasy" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in; experiment:site_header_dropdowns; group:control">Sign in</a>
+                  <span class="text-gray">or</span>
+                  <a class="text-bold text-white no-underline" href="https://github.com/join?source=header-repo" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up; experiment:site_header_dropdowns; group:control">Sign up</a>
+              </div>
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  </div>
+
+  <div id="start-of-content" class="show-on-focus"></div>
+
+    <div id="js-flash-container">
+
+
+</div>
+
+
+
+  <div role="main" class="application-main ">
+        <div itemscope="" itemtype="http://schema.org/SoftwareSourceCode" class="">
+    <div id="js-repo-pjax-container" data-pjax-container="">
+      
+
+
+
+  
+
+
+
+  <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
+    <div class="repohead-details-container clearfix container">
+
+      <ul class="pagehead-actions">
+  <li>
+      <a href="https://github.com/login?return_to=%2Fspeakeasyjs%2Fspeakeasy" class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <svg class="octicon octicon-eye v-align-text-bottom" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.06 2C3 2 0 8 0 8s3 6 8.06 6C13 14 16 8 16 8s-3-6-7.94-6zM8 12c-2.2 0-4-1.78-4-4 0-2.2 1.8-4 4-4 2.22 0 4 1.8 4 4 0 2.22-1.78 4-4 4zm2-4c0 1.11-.89 2-2 2-1.11 0-2-.89-2-2 0-1.11.89-2 2-2 1.11 0 2 .89 2 2z"></path></svg>
+    Watch
+  </a>
+  <a class="social-count" href="https://github.com/speakeasyjs/speakeasy/watchers" aria-label="48 users are watching this repository">
+    48
+  </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fspeakeasyjs%2Fspeakeasy" class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to star a repository" rel="nofollow">
+    <svg class="octicon octicon-star v-align-text-bottom" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="https://github.com/speakeasyjs/speakeasy/stargazers" aria-label="1576 users starred this repository">
+      1,576
+    </a>
+
+  </li>
+
+  <li>
+      <a href="https://github.com/login?return_to=%2Fspeakeasyjs%2Fspeakeasy" class="btn btn-sm btn-with-count tooltipped tooltipped-s" aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <svg class="octicon octicon-repo-forked v-align-text-bottom" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+        Fork
+      </a>
+
+    <a href="https://github.com/speakeasyjs/speakeasy/network/members" class="social-count" aria-label="139 users forked this repository">
+      139
+    </a>
+  </li>
+</ul>
+
+      <h1 class="public ">
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"></path></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="https://github.com/speakeasyjs">speakeasyjs</a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="https://github.com/speakeasyjs/speakeasy">speakeasy</a></strong>
+
+</h1>
+
+    </div>
+    
+<nav class="reponav js-repo-nav js-sidenav-container-pjax container" itemscope="" itemtype="http://schema.org/BreadcrumbList" role="navigation" data-pjax="#js-repo-pjax-container">
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /speakeasyjs/speakeasy" href="https://github.com/speakeasyjs/speakeasy">
+      <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"></path></svg>
+      <span itemprop="name">Code</span>
+      <meta itemprop="position" content="1">
+</a>  </span>
+
+    <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /speakeasyjs/speakeasy/issues" href="https://github.com/speakeasyjs/speakeasy/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">37</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
+
+  <span itemscope="" itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /speakeasyjs/speakeasy/pulls" href="https://github.com/speakeasyjs/speakeasy/pulls">
+      <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+      <span itemprop="name">Pull requests</span>
+      <span class="Counter">4</span>
+      <meta itemprop="position" content="3">
+</a>  </span>
+
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /speakeasyjs/speakeasy/projects" href="https://github.com/speakeasyjs/speakeasy/projects">
+      <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"></path></svg>
+      Projects
+      <span class="Counter">2</span>
+</a>
+
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /speakeasyjs/speakeasy/wiki" href="https://github.com/speakeasyjs/speakeasy/wiki">
+      <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+      Wiki
+</a>
+
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /speakeasyjs/speakeasy/pulse" href="https://github.com/speakeasyjs/speakeasy/pulse">
+    <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"></path></svg>
+    Insights
+</a>
+
+</nav>
+
+
+  </div>
+
+<div class="container new-discussion-timeline experiment-repo-nav  ">
+  <div class="repository-content ">
+
+    
+      <div class="signup-prompt-bg rounded-1">
+      <div class="signup-prompt p-4 text-center mb-4 rounded-1">
+        <div class="position-relative">
+          <!-- '"` --><!-- </textarea></xmp> --><form action="https://github.com/site/dismiss_signup_prompt" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="authenticity_token" value="AJF0ni5LMkZkDiFb/lcpTfBvBylmNzU01dILRDbOCxZilHPGKRfD17z7aKxARa75V4JCC6A5+1+LH+1IQWYOMg==">
+            <button type="submit" class="position-absolute top-0 right-0 btn-link link-gray" data-ga-click="(Logged out) Sign up prompt, clicked Dismiss, text:dismiss">
+              Dismiss
+            </button>
+</form>          <h3 class="pt-2">Join GitHub today</h3>
+          <p class="col-6 mx-auto">GitHub is home to over 28 million developers working together to host and review code, manage projects, and build software together.</p>
+          <a class="btn btn-primary" href="https://github.com/join?source=prompt-code" data-ga-click="(Logged out) Sign up prompt, clicked Sign up, text:sign-up">Sign up</a>
+        </div>
+      </div>
+    </div>
+
+
+  <div class="js-repo-meta-container">
+  <div class="repository-meta mb-0  js-repo-meta-edit js-details-container ">
+    <div class="repository-meta-content col-11 mb-1">
+          <span class="col-11 text-gray-dark mr-2" itemprop="about">
+            Two-factor authentication for Node.js. One-time passcode generator (HOTP/TOTP) with support for Google Authenticator.
+          </span>
+    </div>
+
+  </div>
+
+    <div class="mb-3 repository-topics-container js-repository-topics-container js-details-container">
+      <div id="topics-list-container" data-url="/speakeasyjs/speakeasy/settings/topics">
+          <div class="list-topics-container f6 mt-1">
+      <a href="https://github.com/topics/javascript" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:javascript">
+        javascript
+      </a>
+      <a href="https://github.com/topics/two-factor" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:two-factor">
+        two-factor
+      </a>
+      <a href="https://github.com/topics/two-factor-authentication" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:two-factor-authentication">
+        two-factor-authentication
+      </a>
+      <a href="https://github.com/topics/node" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:node">
+        node
+      </a>
+      <a href="https://github.com/topics/nodejs" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:nodejs">
+        nodejs
+      </a>
+      <a href="https://github.com/topics/node-js" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:node-js">
+        node-js
+      </a>
+      <a href="https://github.com/topics/mfa" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:mfa">
+        mfa
+      </a>
+      <a href="https://github.com/topics/hotp" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:hotp">
+        hotp
+      </a>
+      <a href="https://github.com/topics/totp" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:totp">
+        totp
+      </a>
+      <a href="https://github.com/topics/multi-factor" class="topic-tag topic-tag-link" data-ga-click="Topic, repository page" data-octo-click="topic_click" data-octo-dimensions="topic:multi-factor">
+        multi-factor
+      </a>
+  </div>
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+  <div class="overall-summary overall-summary-bottomless">
+    <div class="stats-switcher-viewport js-stats-switcher-viewport">
+      <div class="stats-switcher-wrapper">
+      <ul class="numbers-summary">
+        <li class="commits">
+          <a data-pjax="" href="https://github.com/speakeasyjs/speakeasy/commits/master">
+              <svg class="octicon octicon-history" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 13H6V6h5v2H8v5zM7 1C4.81 1 2.87 2.02 1.59 3.59L0 2v4h4L2.5 4.5C3.55 3.17 5.17 2.3 7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-.34.03-.67.09-1H.08C.03 7.33 0 7.66 0 8c0 3.86 3.14 7 7 7s7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              <span class="num text-emphasized">
+                212
+              </span>
+              commits
+          </a>
+        </li>
+        <li>
+          <a data-pjax="" href="https://github.com/speakeasyjs/speakeasy/branches">
+            <svg class="octicon octicon-git-branch" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"></path></svg>
+            <span class="num text-emphasized">
+              3
+            </span>
+            branches
+          </a>
+        </li>
+
+        <li>
+          <a href="https://github.com/speakeasyjs/speakeasy/releases">
+            <svg class="octicon octicon-tag" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.685 1.72a2.49 2.49 0 0 0-1.76-.726H3.48A2.5 2.5 0 0 0 .994 3.48v2.456c0 .656.269 1.292.726 1.76l6.024 6.024a.99.99 0 0 0 1.402 0l4.563-4.563a.99.99 0 0 0 0-1.402L7.685 1.72zM2.366 7.048A1.54 1.54 0 0 1 1.9 5.925V3.48c0-.874.716-1.58 1.58-1.58h2.456c.418 0 .825.159 1.123.467l6.104 6.094-4.702 4.702-6.094-6.114zm.626-4.066h1.989v1.989H2.982V2.982h.01z"></path></svg>
+            <span class="num text-emphasized">
+              7
+            </span>
+            releases
+          </a>
+        </li>
+
+        <li>
+            <a href="https://github.com/speakeasyjs/speakeasy/graphs/contributors">
+  <svg class="octicon octicon-organization" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 12.999c0 .439-.45 1-1 1H7.995c-.539 0-.994-.447-.995-.999H1c-.54 0-1-.561-1-1 0-2.634 3-4 3-4s.229-.409 0-1c-.841-.621-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.442.58 2.5 3c.058 2.41-.159 2.379-1 3-.229.59 0 1 0 1s1.549.711 2.42 2.088C9.196 9.369 10 8.999 10 8.999s.229-.409 0-1c-.841-.62-1.058-.59-1-3 .058-2.419 1.367-3 2.5-3s2.437.581 2.495 3c.059 2.41-.158 2.38-1 3-.229.59 0 1 0 1s3.005 1.366 3.005 4z"></path></svg>
+    <span class="num text-emphasized">
+      15
+    </span>
+    contributors
+</a>
+
+        </li>
+          <li>
+            <a href="https://github.com/speakeasyjs/speakeasy/blob/master/LICENSE">
+              <svg class="octicon octicon-law" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 4c-.83 0-1.5-.67-1.5-1.5S6.17 1 7 1s1.5.67 1.5 1.5S7.83 4 7 4zm7 6c0 1.11-.89 2-2 2h-1c-1.11 0-2-.89-2-2l2-4h-1c-.55 0-1-.45-1-1H8v8c.42 0 1 .45 1 1h1c.42 0 1 .45 1 1H3c0-.55.58-1 1-1h1c0-.55.58-1 1-1h.03L6 5H5c0 .55-.45 1-1 1H3l2 4c0 1.11-.89 2-2 2H2c-1.11 0-2-.89-2-2l2-4H1V5h3c0-.55.45-1 1-1h4c.55 0 1 .45 1 1h3v1h-1l2 4zM2.5 7L1 10h3L2.5 7zM13 10l-1.5-3-1.5 3h3z"></path></svg>
+                MIT
+            </a>
+          </li>
+      </ul>
+
+        <div class="repository-lang-stats">
+          <ol class="repository-lang-stats-numbers">
+            <li>
+                <a href="https://github.com/speakeasyjs/speakeasy/search?l=javascript" data-ga-click="Repository, language stats search click, location:repo overview">
+                  <span class="color-block language-color" style="background-color:#f1e05a;"></span>
+                  <span class="lang">JavaScript</span>
+                  <span class="percent">100.0%</span>
+                </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <button type="button" class="d-flex p-0 repository-lang-stats-graph js-toggle-lang-stats" title="Click for language details" data-ga-click="Repository, language bar stats toggle, location:repo overview">
+      <span class="language-color" aria-label="JavaScript 100.0%" style="width:100.0%; background-color:#f1e05a;" itemprop="keywords">JavaScript</span>
+  </button>
+
+
+
+
+  <div class="file-navigation in-mid-page d-flex flex-items-start">
+  
+<div class="select-menu branch-select-menu js-menu-container js-select-menu float-left">
+  <button class=" btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w" type="button" aria-label="Switch branches or tags" aria-expanded="false" aria-haspopup="true">
+      <i>Branch:</i>
+      <span class="js-select-button css-truncate-target">master</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax="">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <svg class="octicon octicon-x js-menu-close" role="img" aria-label="Close" viewBox="0 0 12 16" version="1.1" width="12" height="16"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="https://github.com/speakeasyjs/speakeasy#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="https://github.com/speakeasyjs/speakeasy#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/gh-pages" data-name="gh-pages" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open selected" href="https://github.com/speakeasyjs/speakeasy/tree/master" data-name="master" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                master
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v2" data-name="v2" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target js-select-menu-filter-text">
+                v2
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v2.0.0" data-name="v2.0.0" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v2.0.0">
+                v2.0.0
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v1.0.5" data-name="v1.0.5" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.5">
+                v1.0.5
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v1.0.4" data-name="v1.0.4" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.4">
+                v1.0.4
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v1.0.3" data-name="v1.0.3" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.3">
+                v1.0.3
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v1.0.2" data-name="v1.0.2" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.2">
+                v1.0.2
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v1.0.1" data-name="v1.0.1" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.1">
+                v1.0.1
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open " href="https://github.com/speakeasyjs/speakeasy/tree/v1.0.0" data-name="v1.0.0" data-skip-pjax="true" rel="nofollow">
+              <svg class="octicon octicon-check select-menu-item-icon" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M12 5l-8 8-4-4 1.5-1.5L4 10l6.5-6.5L12 5z"></path></svg>
+              <span class="select-menu-item-text css-truncate-target" title="v1.0.0">
+                v1.0.0
+              </span>
+            </a>
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+        <button type="button" class="btn btn-sm disabled tooltipped tooltipped-n new-pull-request-btn" aria-label="You must be signed in to create a pull request">
+          New pull request
+        </button>
+
+  <div class="breadcrumb flex-auto">
+    
+  </div>
+
+  <div class="BtnGroup">
+
+    <a href="https://github.com/speakeasyjs/speakeasy/find/master" class="btn btn-sm empty-icon float-right BtnGroup-item" data-pjax="" data-hotkey="t" data-ga-click="Repository, find file, location:repo overview">
+      Find file
+    </a>
+  </div>
+  
+
+    <details class="get-repo-select-menu js-get-repo-select-menu position-relative details-overlay details-reset">
+  <summary class="btn btn-sm btn-primary">
+    Clone or download
+    <span class="dropdown-caret"></span>
+  </summary>
+  <div class="position-relative">
+    <div class="get-repo-modal dropdown-menu dropdown-menu-sw pb-0 js-toggler-container  js-get-repo-modal">
+
+      <div class="get-repo-modal-options">
+          <div class="clone-options https-clone-options">
+
+            <h4 class="mb-1">
+              Clone with HTTPS
+              <a class="muted-link" href="https://help.github.com/articles/which-remote-url-should-i-use" target="_blank" title="Which remote URL should I use?">
+                <svg class="octicon octicon-question" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 10h2v2H6v-2zm4-3.5C10 8.64 8 9 8 9H6c0-.55.45-1 1-1h.5c.28 0 .5-.22.5-.5v-1c0-.28-.22-.5-.5-.5h-1c-.28 0-.5.22-.5.5V7H4c0-1.5 1.5-3 3-3s3 1 3 2.5zM7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7z"></path></svg>
+              </a>
+            </h4>
+            <p class="mb-2 get-repo-decription-text">
+              Use Git or checkout with SVN using the web URL.
+            </p>
+
+            <div class="input-group">
+  <input type="text" class="form-control input-monospace input-sm" data-autoselect="" value="https://github.com/speakeasyjs/speakeasy.git" aria-label="Clone this repository at https://github.com/speakeasyjs/speakeasy.git" readonly="">
+  <div class="input-group-button">
+    <clipboard-copy value="https://github.com/speakeasyjs/speakeasy.git" aria-label="Copy to clipboard" class="btn btn-sm" tabindex="0" role="button">
+      <svg class="octicon octicon-clippy" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M2 13h4v1H2v-1zm5-6H2v1h5V7zm2 3V8l-3 3 3 3v-2h5v-2H9zM4.5 9H2v1h2.5V9zM2 12h2.5v-1H2v1zm9 1h1v2c-.02.28-.11.52-.3.7-.19.18-.42.28-.7.3H1c-.55 0-1-.45-1-1V4c0-.55.45-1 1-1h3c0-1.11.89-2 2-2 1.11 0 2 .89 2 2h3c.55 0 1 .45 1 1v5h-1V6H1v9h10v-2zM2 5h8c0-.55-.45-1-1-1H8c-.55 0-1-.45-1-1s-.45-1-1-1-1 .45-1 1-.45 1-1 1H3c-.55 0-1 .45-1 1z"></path></svg>
+    </clipboard-copy>
+  </div>
+</div>
+
+          </div>
+
+        <div class="mt-2">
+            <a href="https://desktop.github.com/" class="btn btn-outline get-repo-btn tooltipped tooltipped-s tooltipped-multiline js-get-repo" data-open-app="windows" aria-label="Clone speakeasyjs/speakeasy to your computer and use it in GitHub Desktop.">
+    Open in Desktop
+  </a>
+
+<a href="https://github.com/speakeasyjs/speakeasy/archive/master.zip" class="btn btn-outline get-repo-btn
+" rel="nofollow" data-ga-click="Repository, download zip, location:repo overview">
+  Download ZIP
+</a>
+
+        </div>
+      </div>
+
+      <div class="js-modal-download-mac py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-windows py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching GitHub Desktop<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://desktop.github.com/">download GitHub Desktop</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-xcode py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Xcode<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://developer.apple.com/xcode/">download Xcode</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+      <div class="js-modal-download-visual-studio py-2 px-3 d-none">
+        <h4 class="lh-condensed mb-3">Launching Visual Studio<span class="animated-ellipsis-container"><span class="animated-ellipsis">...</span></span></h4>
+        <p class="text-gray">If nothing happens, <a href="https://visualstudio.github.com/">download the GitHub extension for Visual Studio</a> and try again.</p>
+        <p><button class="btn-link js-get-repo-modal-download-back">Go back</button></p>
+      </div>
+
+    </div>
+  </div>
+</details>
+
+</div>
+
+
+  
+
+
+  <div class="commit-tease js-details-container Details">
+    <span class="float-right">
+      Latest commit
+      <a class="commit-tease-sha" href="https://github.com/speakeasyjs/speakeasy/commit/cb58351b7eb829719dbee2df2ede53d97721ef6d" data-pjax="">
+        cb58351
+      </a>
+      <span itemprop="dateModified"><relative-time datetime="2017-09-14T05:18:29Z" title="Sep 14, 2017, 7:18 AM GMT+2">on Sep 14, 2017</relative-time></span>
+    </span>
+
+
+      <div class="d-flex no-wrap">
+        
+<div class="AvatarStack flex-self-start ">
+  <div class="AvatarStack-body tooltipped tooltipped-se tooltipped-align-left-1" aria-label="jakelee8">
+
+        <a href="https://github.com/jakelee8" data-skip-pjax="true" class="avatar">
+          <img src="./SpeakEasy_github_files/19253212" width="20" height="20" alt="@jakelee8">
+        </a>
+  </div>
+</div>
+
+        <div class="flex-auto f6">
+          
+      <a href="https://github.com/speakeasyjs/speakeasy/commits?author=jakelee8" class="commit-author tooltipped tooltipped-s user-mention" aria-label="View all commits by jakelee8">jakelee8</a>
+
+
+  committed
+  <relative-time datetime="2017-09-14T05:18:29Z" title="Sep 14, 2017, 7:18 AM GMT+2">on Sep 14, 2017</relative-time>
+
+
+
+      <a href="https://github.com/speakeasyjs/speakeasy/commit/cb58351b7eb829719dbee2df2ede53d97721ef6d" class="message" data-pjax="true" title="Merge pull request #87 from railsstudent/update-totp-verify-documentation
+
+Add totp.verify examples with custom time.">Merge pull request</a> <a href="https://github.com/speakeasyjs/speakeasy/pull/87" class="issue-link js-issue-link" data-url="https://github.com/speakeasyjs/speakeasy/issues/87" data-id="223437919" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#87</a> <a href="https://github.com/speakeasyjs/speakeasy/commit/cb58351b7eb829719dbee2df2ede53d97721ef6d" class="message" data-pjax="true" title="Merge pull request #87 from railsstudent/update-totp-verify-documentation
+
+Add totp.verify examples with custom time.">from railsstudent/update-totp-verify-documenta…</a>
+        <span class="hidden-text-expander inline">
+          <button type="button" class="ellipsis-expander js-details-target" aria-expanded="false">…</button>
+        </span>
+
+      <div class="commit-desc"><pre class="text-small">…tion
+
+Add totp.verify examples with custom time.</pre></div>
+
+        </div>
+      </div>
+  </div>
+
+
+
+
+<div class="file-wrap">
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="https://github.com/speakeasyjs/speakeasy/tree/cb58351b7eb829719dbee2df2ede53d97721ef6d">Permalink</a>
+
+  <table class="files js-navigation-container js-active-navigation-container" data-pjax="">
+
+
+    <tbody>
+      <tr class="warning include-fragment-error">
+        <td class="icon"><svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></td>
+        <td class="content" colspan="3">Failed to load latest commit information.</td>
+      </tr>
+
+        <tr class="js-navigation-item navigation-focus" aria-selected="true">
+          <td class="icon">
+            <svg class="octicon octicon-file-directory" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M13 4H7V3c0-.66-.31-1-1-1H1c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1V5c0-.55-.45-1-1-1zM6 4H1V3h5v1z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="test" id="098f6bcd4621d373cade4e832627b4f6-2b248a3cd0d51f545e994f704eaf04e3e65c13f8" href="https://github.com/speakeasyjs/speakeasy/tree/master/test">test</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge conflict" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/b7512168a71c024c747c910fc0b07decf8750683">Merge conflict</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-03-20T12:22:57Z" title="Mar 20, 2017, 2:22 PM GMT+2">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".gitignore" id="a084b794bc0759e7a6b77810e01874f2-465a37aced181ff668373830f57e0c1bda76a117" href="https://github.com/speakeasyjs/speakeasy/blob/master/.gitignore">.gitignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Revive as Passcode" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/508332e8222e13745cfe3747130ec090b3122f83">Revive as Passcode</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-06-13T01:26:08Z" title="Jun 13, 2015, 3:26 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".npmignore" id="0fd4ef892d9d4990033701887c2f9bcc-9daeafb9864cf43055ae93beb0afd6c7d144bfa4" href="https://github.com/speakeasyjs/speakeasy/blob/master/.npmignore">.npmignore</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Add .npmignore" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/7f62d5a6a911e9bab4522a54d798a801aec57eb2">Add .npmignore</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-06-14T05:19:55Z" title="Jun 14, 2015, 7:19 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title=".travis.yml" id="354f30a63fb0907d4ad57269548329e3-61da3b252a5ff9441002524f657a25965913c8f5" href="https://github.com/speakeasyjs/speakeasy/blob/master/.travis.yml">.travis.yml</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[proj] Added Coveralls and updated Travis script" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/15ef6d036dd64d922e4e81d687e0c8ae980c5548">[proj] Added Coveralls and updated Travis script</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-23T06:42:17Z" title="Jan 23, 2016, 8:42 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="CHANGELOG.md" id="4ac32a78649ca5bdd8e0ba38b7006a1e-de2cf6b6f2103963f847e654e2a67279c2d418c6" href="https://github.com/speakeasyjs/speakeasy/blob/master/CHANGELOG.md">CHANGELOG.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[maint] Update CHANGELOG.md. We&#39;re releasing today!" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/8cc306eb25358d2af00e73d8ba3da31f86aad069">[maint] Update CHANGELOG.md. We're releasing today!</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T06:12:45Z" title="Jan 27, 2016, 8:12 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="LICENSE" id="9879d6db96fd29134fc802214163b95a-49d1fee83f87d6d09fe9d6ecf03e155609d8406e" itemprop="license" href="https://github.com/speakeasyjs/speakeasy/blob/master/LICENSE">LICENSE</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[maint] Updated LICENSE" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/03ef53b7f180da6bd668066a6133659478f84c3c">[maint] Updated LICENSE</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-03T03:34:11Z" title="Jan 3, 2016, 5:34 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="README.md" id="04c6e90faac2675aa89e2176d2eec7d8-5216b853565093ef24785e4eb76d23b6e6cdf036" href="https://github.com/speakeasyjs/speakeasy/blob/master/README.md">README.md</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge pull request #87 from railsstudent/update-totp-verify-documentation
+
+Add totp.verify examples with custom time." class="message" href="https://github.com/speakeasyjs/speakeasy/commit/cb58351b7eb829719dbee2df2ede53d97721ef6d">Merge pull request</a> <a href="https://github.com/speakeasyjs/speakeasy/pull/87" class="issue-link js-issue-link" data-url="https://github.com/speakeasyjs/speakeasy/issues/87" data-id="223437919" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#87</a> <a data-pjax="true" title="Merge pull request #87 from railsstudent/update-totp-verify-documentation
+
+Add totp.verify examples with custom time." class="message" href="https://github.com/speakeasyjs/speakeasy/commit/cb58351b7eb829719dbee2df2ede53d97721ef6d">from railsstudent/update-totp-verify-documenta…</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-09-14T05:18:29Z" title="Sep 14, 2017, 7:18 AM GMT+2">a year ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="index.js" id="168726dbe96b3ce427e7fedce31bb0bc-59eb6ad15722cd9aad281877400470bc41076f58" href="https://github.com/speakeasyjs/speakeasy/blob/master/index.js">index.js</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Merge pull request #74 from railsstudent/otpauthURL-default-values
+
+Otpauth url default values" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/e63b936d562fa16c5970d0821a221cf1a59f559b">Merge pull request</a> <a href="https://github.com/speakeasyjs/speakeasy/pull/74" class="issue-link js-issue-link" data-url="https://github.com/speakeasyjs/speakeasy/issues/74" data-id="202241395" data-error-text="Failed to load issue title" data-permission-text="Issue title is private">#74</a> <a data-pjax="true" title="Merge pull request #74 from railsstudent/otpauthURL-default-values
+
+Otpauth url default values" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/e63b936d562fa16c5970d0821a221cf1a59f559b">from railsstudent/otpauthURL-default-values</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2017-02-28T02:39:01Z" title="Feb 28, 2017, 4:39 AM GMT+2">2 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item" aria-selected="false">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="jsdoc.json" id="b0d358a8c21290e7cf784f36ab35043c-6a928093a2a28e145b16feafd923e9d5c2a39ebd" href="https://github.com/speakeasyjs/speakeasy/blob/master/jsdoc.json">jsdoc.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="Minor updates to README and jsdoc" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/9e1df2b4c734808c6d279ec34486c154dbe6908d">Minor updates to README and jsdoc</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2015-12-29T22:22:03Z" title="Dec 30, 2015, 12:22 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+        <tr class="js-navigation-item">
+          <td class="icon">
+            <svg class="octicon octicon-file" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M6 5H2V4h4v1zM2 8h7V7H2v1zm0 2h7V9H2v1zm0 2h7v-1H2v1zm10-7.5V14c0 .55-.45 1-1 1H1c-.55 0-1-.45-1-1V2c0-.55.45-1 1-1h7.5L12 4.5zM11 5L8 2H1v12h10V5z"></path></svg>
+            <img width="16" height="16" class="spinner" alt="" src="./SpeakEasy_github_files/octocat-spinner-32.gif">
+          </td>
+          <td class="content">
+            <span class="css-truncate css-truncate-target"><a class="js-navigation-open" title="package.json" id="b9cfc7f2cdf78a7f4b91a753d10865a2-a829d3d96bb7c552d532156a72f82c5ac0471be2" href="https://github.com/speakeasyjs/speakeasy/blob/master/package.json">package.json</a></span>
+          </td>
+          <td class="message">
+            <span class="css-truncate css-truncate-target">
+                  <a data-pjax="true" title="[pkg] Added bugs field to package.json" class="message" href="https://github.com/speakeasyjs/speakeasy/commit/a035a02b8862c42b326da4bbe28ece7bfd16b862">[pkg] Added bugs field to package.json</a>
+            </span>
+          </td>
+          <td class="age">
+            <span class="css-truncate css-truncate-target"><time-ago datetime="2016-01-27T06:35:06Z" title="Jan 27, 2016, 8:35 AM GMT+2">3 years ago</time-ago></span>
+          </td>
+        </tr>
+    </tbody>
+  </table>
+
+</div>
+
+
+
+
+  <div id="readme" class="Box Box--condensed instapaper_body md">
+    <div class="Box-header px-2 clearfix">
+      <h3 class="Box-title pr-3">
+        <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"></path></svg>
+        README.md
+      </h3>
+    </div>
+      <div class="Box-body p-6">
+        <article class="markdown-body entry-content" itemprop="text"><p><a target="_blank" href="./SpeakEasy_github_files/687474703a2f2f692e696d6775722e636f6d2f7152794e4d78342e706e67"><img src="./SpeakEasy_github_files/687474703a2f2f692e696d6775722e636f6d2f7152794e4d78342e706e67" width="550" data-canonical-src="http://i.imgur.com/qRyNMx4.png" style="max-width:100%;"></a></p>
+<p><a href="https://travis-ci.org/speakeasyjs/speakeasy" rel="nofollow"><img src="./SpeakEasy_github_files/68747470733a2f2f7472617669732d63692e6f72672f737065616b656173796a732f737065616b656173792e7376673f6272616e63683d7632" alt="Build Status" data-canonical-src="https://travis-ci.org/speakeasyjs/speakeasy.svg?branch=v2" style="max-width:100%;"></a>
+<a href="https://www.npmjs.com/package/speakeasy" rel="nofollow"><img src="./SpeakEasy_github_files/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f64742f737065616b656173792e737667" alt="NPM downloads" data-canonical-src="https://img.shields.io/npm/dt/speakeasy.svg" style="max-width:100%;"></a>
+<a href="https://coveralls.io/github/speakeasyjs/speakeasy?branch=v2" rel="nofollow"><img src="./SpeakEasy_github_files/68747470733a2f2f636f766572616c6c732e696f2f7265706f732f6769746875622f737065616b656173796a732f737065616b656173792f62616467652e7376673f6272" alt="Coverage Status" data-canonical-src="https://coveralls.io/repos/github/speakeasyjs/speakeasy/badge.svg?branch=v2" style="max-width:100%;"></a>
+<a href="https://www.npmjs.com/package/speakeasy" rel="nofollow"><img src="./SpeakEasy_github_files/68747470733a2f2f696d672e736869656c64732e696f2f6e706d2f762f737065616b656173792e737667" alt="NPM version" data-canonical-src="https://img.shields.io/npm/v/speakeasy.svg" style="max-width:100%;"></a></p>
+<hr>
+<p><strong>Jump to</strong> — <a href="https://github.com/speakeasyjs/speakeasy#install">Install</a> · <a href="https://github.com/speakeasyjs/speakeasy#demo">Demo</a> · <a href="https://github.com/speakeasyjs/speakeasy#two-factor">Two-Factor Usage</a> · <a href="https://github.com/speakeasyjs/speakeasy#general-usage">General Usage</a> · <a href="https://github.com/speakeasyjs/speakeasy#documentation">Documentation</a> · <a href="https://github.com/speakeasyjs/speakeasy#contributing">Contributing</a> · <a href="https://github.com/speakeasyjs/speakeasy#license">License</a></p>
+<hr>
+<p>Speakeasy is a one-time passcode generator, ideal for use in two-factor
+authentication, that supports Google Authenticator and other two-factor devices.</p>
+<p>It is well-tested and includes robust support for custom token lengths,
+authentication windows, hash algorithms like SHA256 and SHA512, and other
+features, and includes helpers like a secret key generator.</p>
+<p>Speakeasy implements one-time passcode generators as standardized by the
+<a href="http://www.openauthentication.org/" rel="nofollow">Initiative for Open Authentication (OATH)</a>. The HMAC-Based One-Time
+Password (HOTP) algorithm defined by <a href="https://tools.ietf.org/html/rfc4226" rel="nofollow">RFC 4226</a> and the Time-Based
+One-time Password (TOTP) algorithm defined in <a href="https://tools.ietf.org/html/rfc6238" rel="nofollow">RFC 6238</a> are
+supported. This project incorporates code from <a href="http://github.com/mikepb/passcode">passcode</a>, originally a
+fork of Speakeasy, and <a href="https://github.com/guyht/notp">notp</a>.</p>
+<p><a name="user-content-install"></a></p>
+<h2><a id="user-content-install" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#install"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Install</h2>
+<div class="highlight highlight-source-shell"><pre>npm install --save speakeasy</pre></div>
+<p><a name="user-content-demo"></a></p>
+<h2><a id="user-content-demo" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#demo"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Demo</h2>
+<p>This demo uses the <code>generateSecret</code> method of Speakeasy to generate a secret key,
+displays a Google Authenticator–compatible QR code which you can scan into your
+phone's two-factor app, and shows the token, which you can verify with your
+phone. Includes sample code. <a href="https://sedemo-mktb.rhcloud.com/" rel="nofollow">https://sedemo-mktb.rhcloud.com/</a></p>
+<p><a href="https://sedemo-mktb.rhcloud.com/" rel="nofollow"><img src="./SpeakEasy_github_files/687474703a2f2f692e696d6775722e636f6d2f675077505034752e706e67" height="43" data-canonical-src="http://i.imgur.com/gPwPP4u.png" style="max-width:100%;"></a></p>
+<p><a name="user-content-two-factor"></a></p>
+<h2><a id="user-content-two-factor-usage" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#two-factor-usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Two-Factor Usage</h2>
+<p>Let's say you have a user that wants to enable two-factor authentication, and you intend to do two-factor authentication using an app like Google Authenticator, Duo Security, Authy, etc. This is a three-step process:</p>
+<ol>
+<li>Generate a secret</li>
+<li>Show a QR code for the user to scan in</li>
+<li>Authenticate the token for the first time</li>
+</ol>
+<h3><a id="user-content-generating-a-key" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#generating-a-key"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generating a key</h3>
+<p>Use Speakeasy's key generator to get a key.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> secret <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">generateSecret</span>();
+<span class="pl-c"><span class="pl-c">//</span> Returns an object with secret.ascii, secret.hex, and secret.base32.</span>
+<span class="pl-c"><span class="pl-c">//</span> Also returns secret.otpauth_url, which we'll use later.</span></pre></div>
+<p>This will generate a secret key of length 32, which will be the secret key for the user.</p>
+<p>Now, we want to make sure that this secret works by validating the token that the user gets from it for the first time. In other words, we don't want to set this as the user's secret key just yet – we first want to verify their token for the first time. We need to persist the secret so that we can use it for token validation later.</p>
+<p>So, store one of the encodings for the secret, preferably <code>secret.base32</code>, somewhere temporary, since we'll use that in the future to authenticate the user's first token.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Example for storing the secret key somewhere (varies by implementation):</span>
+<span class="pl-smi">user</span>.<span class="pl-smi">two_factor_temp_secret</span> <span class="pl-k">=</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>;</pre></div>
+<h3><a id="user-content-displaying-a-qr-code" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#displaying-a-qr-code"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Displaying a QR code</h3>
+<p>Next, we'll want to display a QR code to the user so they can scan in the secret into their app. Google Authenticator and similar apps take in a QR code that holds a URL with the protocol <code>otpauth://</code>, which you get automatically from <code>secret.otpauth_url</code>.</p>
+<p>Use a QR code module to generate a QR code that stores the data in <code>secret.otpauth_url</code>, and then display the QR code to the user. This is one simple way to do it, which generates a PNG data URL which you can put into an <code>&lt;img&gt;</code> tag on a webpage:</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Use the qrcode package</span>
+<span class="pl-c"><span class="pl-c">//</span> npm install --save qrcode</span>
+<span class="pl-k">var</span> QRCode <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">'</span>qrcode<span class="pl-pds">'</span></span>);
+
+<span class="pl-c"><span class="pl-c">//</span> Get the data URL of the authenticator URL</span>
+<span class="pl-smi">QRCode</span>.<span class="pl-c1">toDataURL</span>(<span class="pl-smi">secret</span>.<span class="pl-smi">otpauth_url</span>, <span class="pl-k">function</span>(<span class="pl-smi">err</span>, <span class="pl-smi">data_url</span>) {
+  <span class="pl-en">console</span>.<span class="pl-c1">log</span>(data_url);
+
+  <span class="pl-c"><span class="pl-c">//</span> Display this data URL to the user in an &lt;img&gt; tag</span>
+  <span class="pl-c"><span class="pl-c">//</span> Example:</span>
+  <span class="pl-en">write</span>(<span class="pl-s"><span class="pl-pds">'</span>&lt;img src="<span class="pl-pds">'</span></span> <span class="pl-k">+</span> data_url <span class="pl-k">+</span> <span class="pl-s"><span class="pl-pds">'</span>"&gt;<span class="pl-pds">'</span></span>);
+});</pre></div>
+<p>Ask the user to scan this QR code into their authenticator app.</p>
+<h3><a id="user-content-verifying-the-token" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#verifying-the-token"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Verifying the token</h3>
+<p>Finally, we want to make sure that the token on the server side and the token on the client side match. The best practice is to do a token check before fully enabling two-factor authenticaton for the user. This code applies to the first and subsequent token checks.</p>
+<p>After the user scans the QR code, ask the user to enter in the token that they see in their app. Then, verify it against the secret.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Let's say the user says that the token they have is 132890</span>
+<span class="pl-k">var</span> userToken <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>132890<span class="pl-pds">'</span></span>;
+
+<span class="pl-c"><span class="pl-c">//</span> Let's say we stored the user's temporary secret in a user object like above:</span>
+<span class="pl-c"><span class="pl-c">//</span> (This is specific to your implementation)</span>
+<span class="pl-k">var</span> base32secret <span class="pl-k">=</span> <span class="pl-smi">user</span>.<span class="pl-smi">two_factor_temp_secret</span>;</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Use verify() to check the token against the secret</span>
+<span class="pl-k">var</span> verified <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verify</span>({ secret<span class="pl-k">:</span> base32secret,
+                                       encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+                                       token<span class="pl-k">:</span> userToken });</pre></div>
+<p><code>verified</code> will be true if the token is successfully verified, false if not.</p>
+<p>If successfully verified, you can now save the secret to the user's account and use the same process above whenever you need to use two-factor to authenticate the user, like during login.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Example for saving user's token (varies by implementation):</span>
+<span class="pl-smi">user</span>.<span class="pl-smi">two_factor_secret</span> <span class="pl-k">=</span> <span class="pl-smi">user</span>.<span class="pl-smi">two_factor_temp_secret</span>;
+<span class="pl-smi">user</span>.<span class="pl-smi">two_factor_enabled</span> <span class="pl-k">=</span> <span class="pl-c1">true</span></pre></div>
+<p>Now you're done implementing two-factor authentication!</p>
+<p><a name="user-content-general-usage"></a></p>
+<h2><a id="user-content-general-usage" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#general-usage"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>General Usage</h2>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> speakeasy <span class="pl-k">=</span> <span class="pl-c1">require</span>(<span class="pl-s"><span class="pl-pds">"</span>speakeasy<span class="pl-pds">"</span></span>);</pre></div>
+<h4><a id="user-content-generating-a-key-1" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#generating-a-key-1"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Generating a key</h4>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Generate a secret key.</span>
+<span class="pl-k">var</span> secret <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">generateSecret</span>({length<span class="pl-k">:</span> <span class="pl-c1">20</span>});
+<span class="pl-c"><span class="pl-c">//</span> Access using secret.ascii, secret.hex, or secret.base32.</span></pre></div>
+<h4><a id="user-content-getting-a-time-based-token-for-the-current-time" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#getting-a-time-based-token-for-the-current-time"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting a time-based token for the current time</h4>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Generate a time-based token based on the base-32 key.</span>
+<span class="pl-c"><span class="pl-c">//</span> HOTP (counter-based tokens) can also be used if `totp` is replaced by</span>
+<span class="pl-c"><span class="pl-c">//</span> `hotp` (i.e. speakeasy.hotp()) and a `counter` is given in the options.</span>
+<span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>
+});
+
+<span class="pl-c"><span class="pl-c">//</span> Returns token for the secret at the current time</span>
+<span class="pl-c"><span class="pl-c">//</span> Compare this to user input</span></pre></div>
+<h4><a id="user-content-verifying-a-token" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#verifying-a-token"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Verifying a token</h4>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Verify a given token</span>
+<span class="pl-k">var</span> tokenValidates <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verify</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+  token<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>123456<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">6</span>
+});
+<span class="pl-c"><span class="pl-c">//</span> Returns true if the token matches</span></pre></div>
+<h4><a id="user-content-verifying-a-token-and-calculating-a-delta" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#verifying-a-token-and-calculating-a-delta"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Verifying a token and calculating a delta</h4>
+<p>A TOTP is incremented every <code>step</code> time-step seconds. By default, the time-step
+is 30 seconds. You may change the time-step using the <code>step</code> option, with units
+in seconds.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Verify a given token is within 3 time-steps (+/- 2 minutes) from the server</span>
+<span class="pl-c"><span class="pl-c">//</span> time-step.</span>
+<span class="pl-k">var</span> tokenDelta <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verifyDelta</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+  token<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>123456<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">2</span>,
+  step<span class="pl-k">:</span> <span class="pl-c1">60</span>
+});
+<span class="pl-c"><span class="pl-c">//</span> Returns {delta: 0} where the delta is the time step difference</span>
+<span class="pl-c"><span class="pl-c">//</span> between the given token and the current time</span></pre></div>
+<h4><a id="user-content-getting-a-time-based-token-for-a-custom-time" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#getting-a-time-based-token-for-a-custom-time"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting a time-based token for a custom time</h4>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+  time<span class="pl-k">:</span> <span class="pl-c1">1453667708</span> <span class="pl-c"><span class="pl-c">//</span> specified in seconds</span>
+});
+
+<span class="pl-c"><span class="pl-c">//</span> Verify a time-based token for a custom time</span>
+<span class="pl-k">var</span> tokenValidates <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verify</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+  token<span class="pl-k">:</span> token,
+  time<span class="pl-k">:</span> <span class="pl-c1">1453667708</span>
+});</pre></div>
+<h4><a id="user-content-calculating-a-counter-based-token" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#calculating-a-counter-based-token"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Calculating a counter-based token</h4>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Get a counter-based token</span>
+<span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">hotp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+  counter<span class="pl-k">:</span> <span class="pl-c1">123</span>
+});
+
+<span class="pl-c"><span class="pl-c">//</span> Verify a counter-based token</span>
+<span class="pl-k">var</span> tokenValidates <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verify</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">base32</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>base32<span class="pl-pds">'</span></span>,
+  token<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>123456<span class="pl-pds">'</span></span>,
+  counter<span class="pl-k">:</span> <span class="pl-c1">123</span>
+});</pre></div>
+<h4><a id="user-content-using-other-encodings" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#using-other-encodings"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using other encodings</h4>
+<p>The default encoding (when <code>encoding</code> is not specified) is <code>ascii</code>.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Specifying an ASCII token for TOTP</span>
+<span class="pl-c"><span class="pl-c">//</span> (encoding is 'ascii' by default)</span>
+<span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">ascii</span>
+});</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Specifying a hex token for TOTP</span>
+<span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">hex</span>,
+  encoding<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>hex<span class="pl-pds">'</span></span>
+});</pre></div>
+<h4><a id="user-content-using-other-hash-algorithms" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#using-other-hash-algorithms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Using other hash algorithms</h4>
+<p>The default hash algorithm is SHA1.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Specifying SHA256</span>
+<span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">ascii</span>,
+  algorithm<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>sha256<span class="pl-pds">'</span></span>
+});</pre></div>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Specifying SHA512</span>
+<span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">ascii</span>,
+  algorithm<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>sha512<span class="pl-pds">'</span></span>
+});</pre></div>
+<h4><a id="user-content-getting-an-otpauth-url-and-qr-code-for-non-sha1-hash-algorithms" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#getting-an-otpauth-url-and-qr-code-for-non-sha1-hash-algorithms"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Getting an otpauth:// URL and QR code for non-SHA1 hash algorithms</h4>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Generate a secret, if needed</span>
+<span class="pl-k">var</span> secret <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">generateSecret</span>();
+<span class="pl-c"><span class="pl-c">//</span> By default, generateSecret() returns an otpauth_url for SHA1</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Use otpauthURL() to get a custom authentication URL for SHA512</span>
+<span class="pl-k">var</span> url <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">otpauthURL</span>({ secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">ascii</span>, label<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>Name of Secret<span class="pl-pds">'</span></span>, algorithm<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>sha512<span class="pl-pds">'</span></span> });
+
+<span class="pl-c"><span class="pl-c">//</span> Pass URL into a QR code generator</span></pre></div>
+<h4><a id="user-content-specifying-a-window-for-verifying-hotp-and-totp" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#specifying-a-window-for-verifying-hotp-and-totp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Specifying a window for verifying HOTP and TOTP</h4>
+<p>Verify a HOTP token with counter value 42 and a window of 10. HOTP has a one-sided window, so this will check counter values from 42 to 52, inclusive, and return a <code>{ delta: n }</code> where <code>n</code> is the difference between the given counter value and the counter position at which the token was found, or <code>undefined</code> if it was not found within the window. See the <a href="https://github.com/speakeasyjs/speakeasy#totp%E2%80%A4verifyDelta"><code>hotp․verifyDelta(options)</code></a> documentation for more info.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> token <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verifyDelta</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">ascii</span>,
+  counter<span class="pl-k">:</span> <span class="pl-c1">42</span>,
+  token<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>123456<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">10</span>
+});</pre></div>
+<p>How this works:</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-c"><span class="pl-c">//</span> Set ASCII secret</span>
+<span class="pl-k">var</span> secret <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>rNONHRni6BAk7y2TiKrv<span class="pl-pds">'</span></span>;
+
+<span class="pl-c"><span class="pl-c">//</span> Get HOTP counter token at counter = 42 </span>
+<span class="pl-k">var</span> counter42 <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">hotp</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">42</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; '566646'</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Get HOTP counter token at counter = 45</span>
+<span class="pl-k">var</span> counter45 <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">hotp</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">45</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; '323238'</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Verify the secret at counter 42 with the actual value and a window of 10</span>
+<span class="pl-c"><span class="pl-c">//</span> This will check all counter values from 42 to 52, inclusive</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verifyDelta</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">42</span>, token<span class="pl-k">:</span> counter42, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">10</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; { delta: 0 } because the given token at counter 42 is 0 steps away from the given counter 42</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Verify the secret at counter 45, but give a counter of 42 and a window of 10</span>
+<span class="pl-c"><span class="pl-c">//</span> This will check all counter values from 42 to 52, inclusive</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verifyDelta</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">42</span>, token<span class="pl-k">:</span> counter45, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">10</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; { delta: 3 } because the given token at counter 45 is 0 steps away from given counter 42</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Not in window: specify a window of 1, which only tests counters 42 and 43, not 45</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verifyDelta</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">42</span>, token<span class="pl-k">:</span> counter45, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">1</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; undefined</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Shortcut to use verify() to simply return whether it is verified as within the window</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verify</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">42</span>, token<span class="pl-k">:</span> counter45, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">10</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; true</span>
+
+<span class="pl-c"><span class="pl-c">//</span> Not in window: specify a window of 1, which only tests counters 42 and 43, not 45</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">hotp</span>.<span class="pl-en">verify</span>({ secret<span class="pl-k">:</span> secret, counter<span class="pl-k">:</span> <span class="pl-c1">42</span>, token<span class="pl-k">:</span> counter45, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">1</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; false</span></pre></div>
+<p>Verify a TOTP token at the current time with a window of 2. Since the default time step is 30 seconds, and TOTP has a two-sided window, this will check tokens between [current time minus two tokens before] and [current time plus two tokens after]. In other words, with a time step of 30 seconds, it will check the token at the current time, plus the tokens at the current time minus 30 seconds, minus 60 seconds, plus 30 seconds, and plus 60 seconds –&nbsp;basically, it will check tokens between a minute ago and a minute from now. It will return a <code>{ delta: n }</code> where <code>n</code> is the difference between the current time step and the counter position at which the token was found, or <code>undefined</code> if it was not found within the window. See the <a href="https://github.com/speakeasyjs/speakeasy#totp%E2%80%A4verifyDelta"><code>totp․verifyDelta(options)</code></a> documentation for more info.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> verified <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verifyDelta</span>({
+  secret<span class="pl-k">:</span> <span class="pl-smi">secret</span>.<span class="pl-smi">ascii</span>,
+  token<span class="pl-k">:</span> <span class="pl-s"><span class="pl-pds">'</span>123456<span class="pl-pds">'</span></span>,
+  <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">2</span>
+});</pre></div>
+<p>The mechanics of TOTP windows are the same as for HOTP, as shown above, just with two-sided windows, meaning that the <code>delta</code> value can be negative if the token is found before the given time or counter.</p>
+<div class="highlight highlight-source-js"><pre><span class="pl-k">var</span> secret <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">'</span>rNONHRni6BAk7y2TiKrv<span class="pl-pds">'</span></span>;
+
+<span class="pl-c"><span class="pl-c">//</span> By way of example, we will force TOTP to return tokens at time 1453853945 and</span>
+<span class="pl-c"><span class="pl-c">//</span> at time 1453854005 (60 seconds ahead, or 2 steps ahead)</span>
+<span class="pl-k">var</span> token1 <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({ secret<span class="pl-k">:</span> secret, time<span class="pl-k">:</span> <span class="pl-c1">1453853945</span> }); <span class="pl-c"><span class="pl-c">//</span> 625175</span>
+<span class="pl-k">var</span> token3 <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({ secret<span class="pl-k">:</span> secret, time<span class="pl-k">:</span> <span class="pl-c1">1453854005</span> }); <span class="pl-c"><span class="pl-c">//</span> 222636</span>
+<span class="pl-k">var</span> token2 <span class="pl-k">=</span> <span class="pl-smi">speakeasy</span>.<span class="pl-en">totp</span>({ secret<span class="pl-k">:</span> secret, time<span class="pl-k">:</span> <span class="pl-c1">1453854065</span> }); <span class="pl-c"><span class="pl-c">//</span> 013052</span>
+
+<span class="pl-c"><span class="pl-c">//</span> We can check the time at token 3, 1453853975, with token 1, but use a window of 2</span>
+<span class="pl-c"><span class="pl-c">//</span> With a time step of 30 seconds, this will check all tokens from 60 seconds </span>
+<span class="pl-c"><span class="pl-c">//</span> before the time to 60 seconds after the time</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verifyDelta</span>({ secret<span class="pl-k">:</span> secret, token<span class="pl-k">:</span> token1, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">2</span>, time<span class="pl-k">:</span> <span class="pl-c1">1453854005</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; { delta: -2 }</span>
+
+<span class="pl-c"><span class="pl-c">//</span> token is valid because because token is 60 seconds before time</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verify</span>({ secret<span class="pl-k">:</span> secret, token<span class="pl-k">:</span> token1, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">2</span>, time<span class="pl-k">:</span> <span class="pl-c1">1453854005</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; true</span>
+
+<span class="pl-c"><span class="pl-c">//</span> token is valid because because token is 0 seconds before time</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verify</span>({ secret<span class="pl-k">:</span> secret, token<span class="pl-k">:</span> token3, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">2</span>, time<span class="pl-k">:</span> <span class="pl-c1">1453854005</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; true</span>
+
+<span class="pl-c"><span class="pl-c">//</span> token is valid because because token is 60 seconds after time</span>
+<span class="pl-smi">speakeasy</span>.<span class="pl-smi">totp</span>.<span class="pl-en">verify</span>({ secret<span class="pl-k">:</span> secret, token<span class="pl-k">:</span> token2, <span class="pl-c1">window</span><span class="pl-k">:</span> <span class="pl-c1">2</span>, time<span class="pl-k">:</span> <span class="pl-c1">1453854005</span> });
+<span class="pl-c"><span class="pl-c">//</span> =&gt; true</span>
+
+<span class="pl-c"><span class="pl-c">//</span> This signifies that the given token, token1, is -2 steps away from</span>
+<span class="pl-c"><span class="pl-c">//</span> the given time, which means that it is the token for the value at</span>
+<span class="pl-c"><span class="pl-c">//</span> (-2 * time step) = (-2 * 30 seconds) = 60 seconds ago.</span></pre></div>
+<p>As shown previously, you can also change <code>verifyDelta()</code> to <code>verify()</code> to simply return a boolean if the given token is within the given window.</p>
+<p><a name="user-content-documentation"></a></p>
+<h2><a id="user-content-documentation" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#documentation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Documentation</h2>
+<p>Full API documentation (in JSDoc format) is available below and at <a href="http://speakeasyjs.github.io/speakeasy/" rel="nofollow">http://speakeasyjs.github.io/speakeasy/</a></p>
+<p><a href="http://speakeasyjs.github.io/speakeasy/" rel="nofollow"><img src="./SpeakEasy_github_files/687474703a2f2f692e696d6775722e636f6d2f684439773431542e706e67" height="43" data-canonical-src="http://i.imgur.com/hD9w41T.png" style="max-width:100%;"></a></p>
+<h3><a id="user-content-functions" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#functions"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Functions</h3>
+<dl>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#digest">digest(options)</a> ⇒ <code>Buffer</code></dt>
+<dd><p>Digest the one-time passcode options.</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#hotp">hotp(options)</a> ⇒ <code>String</code></dt>
+<dd><p>Generate a counter-based one-time token.</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#hotp%E2%80%A4verifyDelta">hotp․verifyDelta(options)</a> ⇒ <code>Object</code></dt>
+<dd><p>Verify a counter-based one-time token against the secret and return the delta.</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#hotp%E2%80%A4verify">hotp․verify(options)</a> ⇒ <code>Boolean</code></dt>
+<dd><p>Verify a counter-based one-time token against the secret and return true if it
+verifies.</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#totp">totp(options)</a> ⇒ <code>String</code></dt>
+<dd><p>Generate a time-based one-time token.</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#totp%E2%80%A4verifyDelta">totp․verifyDelta(options)</a> ⇒ <code>Object</code></dt>
+<dd><p>Verify a time-based one-time token against the secret and return the delta.</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#totp%E2%80%A4verify">totp․verify(options)</a> ⇒ <code>Boolean</code></dt>
+<dd><p>Verify a time-based one-time token against the secret and return true if it
+verifies.
+</p></dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#generateSecret">generateSecret(options)</a> ⇒ <code>Object</code> | <code><a href="https://github.com/speakeasyjs/speakeasy#GeneratedSecret">GeneratedSecret</a></code></dt>
+<dd><p>Generates a random secret with the set A-Z a-z 0-9 and symbols, of any length
+(default 32).</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#generateSecretASCII">generateSecretASCII([length], [symbols])</a> ⇒ <code>String</code></dt>
+<dd><p>Generates a key of a certain length (default 32) from A-Z, a-z, 0-9, and
+symbols (if requested).</p>
+</dd>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#otpauthURL">otpauthURL(options)</a> ⇒ <code>String</code></dt>
+<dd><p>Generate an URL for use with the Google Authenticator app.</p>
+</dd>
+</dl>
+<h3><a id="user-content-typedefs" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#typedefs"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Typedefs</h3>
+<dl>
+<dt><a href="https://github.com/speakeasyjs/speakeasy#GeneratedSecret">GeneratedSecret</a> : <code>Object</code></dt>
+<dd></dd>
+</dl>
+<p><a name="user-content-digest"></a></p>
+<h3><a id="user-content-digestoptions--buffer" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#digestoptions--buffer"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>digest(options) ⇒ <code>Buffer</code></h3>
+<p>Digest the one-time passcode options.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>Buffer</code> - The one-time passcode as a buffer.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.counter</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr>
+<tr>
+<td>[options.key]</td>
+<td><code>String</code></td>
+<td></td>
+<td>(DEPRECATED. Use <code>secret</code> instead.)   Shared secret key</td>
+</tr></tbody></table>
+<p><a name="user-content-hotp"></a></p>
+<h3><a id="user-content-hotpoptions--string" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#hotpoptions--string"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>hotp(options) ⇒ <code>String</code></h3>
+<p>Generate a counter-based one-time token. Specify the key and counter, and
+receive the one-time password for that counter position as a string. You can
+also specify a token length, as well as the encoding (ASCII, hexadecimal, or
+base32) and the hashing algorithm to use (SHA1, SHA256, SHA512).</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>String</code> - The one-time passcode.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.counter</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value</td>
+</tr>
+<tr>
+<td>[options.digest]</td>
+<td><code>Buffer</code></td>
+<td></td>
+<td>Digest, automatically generated by default</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr>
+<tr>
+<td>[options.key]</td>
+<td><code>String</code></td>
+<td></td>
+<td>(DEPRECATED. Use <code>secret</code> instead.)   Shared secret key</td>
+</tr>
+<tr>
+<td>[options.length]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>(DEPRECATED. Use <code>digits</code> instead.) The   number of digits for the one-time passcode.</td>
+</tr></tbody></table>
+<p><a name="user-content-hotp․verifyDelta"></a></p>
+<h3><a id="user-content-hotpverifydeltaoptions--object" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#hotpverifydeltaoptions--object"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>hotp․verifyDelta(options) ⇒ <code>Object</code></h3>
+<p>Verify a counter-based one-time token against the secret and return the delta.
+By default, it verifies the token at the given counter value, with no leeway
+(no look-ahead or look-behind). A token validated at the current counter value
+will have a delta of 0.</p>
+<p>You can specify a window to add more leeway to the verification process.
+Setting the window param will check for the token at the given counter value
+as well as <code>window</code> tokens ahead (one-sided window). See param for more info.</p>
+<p><code>verifyDelta()</code> will return the delta between the counter value of the token
+and the given counter value. For example, if given a counter 5 and a window
+10, <code>verifyDelta()</code> will look at tokens from 5 to 15, inclusive. If it finds
+it at counter position 7, it will return <code>{ delta: 2 }</code>.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>Object</code> - On success, returns an object with the counter
+difference between the client and the server as the <code>delta</code> property (i.e.
+<code>{ delta: 0 }</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.token</td>
+<td><code>String</code></td>
+<td></td>
+<td>Passcode to validate</td>
+</tr>
+<tr>
+<td>options.counter</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value. This should be stored by   the application and must be incremented for each request.</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode.</td>
+</tr>
+<tr>
+<td>[options.window]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>The allowable margin for the counter.   The function will check "W" codes in the future against the provided   passcode, e.g. if W = 10, and C = 5, this function will check the   passcode against all One Time Passcodes between 5 and 15, inclusive.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr></tbody></table>
+<p><a name="user-content-hotp․verify"></a></p>
+<h3><a id="user-content-hotpverifyoptions--boolean" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#hotpverifyoptions--boolean"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>hotp․verify(options) ⇒ <code>Boolean</code></h3>
+<p>Verify a counter-based one-time token against the secret and return true if it
+verifies. Helper function for `hotp.verifyDelta()`` that returns a boolean
+instead of an object. For more on how to use a window with this, see
+hotp.verifyDelta.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>Boolean</code> - Returns true if the token matches within the given
+window, false otherwise.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.token</td>
+<td><code>String</code></td>
+<td></td>
+<td>Passcode to validate</td>
+</tr>
+<tr>
+<td>options.counter</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value. This should be stored by   the application and must be incremented for each request.</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode.</td>
+</tr>
+<tr>
+<td>[options.window]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>The allowable margin for the counter.   The function will check "W" codes in the future against the provided   passcode, e.g. if W = 10, and C = 5, this function will check the   passcode against all One Time Passcodes between 5 and 15, inclusive.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr></tbody></table>
+<p><a name="user-content-totp"></a></p>
+<h3><a id="user-content-totpoptions--string" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#totpoptions--string"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>totp(options) ⇒ <code>String</code></h3>
+<p>Generate a time-based one-time token. Specify the key, and receive the
+one-time password for that time as a string. By default, it uses the current
+time and a time step of 30 seconds, so there is a new token every 30 seconds.
+You may override the time step and epoch for custom timing. You can also
+specify a token length, as well as the encoding (ASCII, hexadecimal, or
+base32) and the hashing algorithm to use (SHA1, SHA256, SHA512).</p>
+<p>Under the hood, TOTP calculates the counter value by finding how many time
+steps have passed since the epoch, and calls HOTP with that counter value.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>String</code> - The one-time passcode.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>[options.time]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Time in seconds with which to calculate counter value.   Defaults to <code>Date.now()</code>.</td>
+</tr>
+<tr>
+<td>[options.step]</td>
+<td><code>Integer</code></td>
+<td><code>30</code></td>
+<td>Time step in seconds</td>
+</tr>
+<tr>
+<td>[options.epoch]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>Initial time since the UNIX epoch from   which to calculate the counter value. Defaults to 0 (no offset).</td>
+</tr>
+<tr>
+<td>[options.counter]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value, calculated by default.</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr>
+<tr>
+<td>[options.key]</td>
+<td><code>String</code></td>
+<td></td>
+<td>(DEPRECATED. Use <code>secret</code> instead.)   Shared secret key</td>
+</tr>
+<tr>
+<td>[options.initial_time]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>(DEPRECATED. Use <code>epoch</code> instead.)   Initial time since the UNIX epoch from which to calculate the counter   value. Defaults to 0 (no offset).</td>
+</tr>
+<tr>
+<td>[options.length]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>(DEPRECATED. Use <code>digits</code> instead.) The   number of digits for the one-time passcode.</td>
+</tr></tbody></table>
+<p><a name="user-content-totp․verifyDelta"></a></p>
+<h3><a id="user-content-totpverifydeltaoptions--object" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#totpverifydeltaoptions--object"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>totp․verifyDelta(options) ⇒ <code>Object</code></h3>
+<p>Verify a time-based one-time token against the secret and return the delta.
+By default, it verifies the token at the current time window, with no leeway
+(no look-ahead or look-behind). A token validated at the current time window
+will have a delta of 0.</p>
+<p>You can specify a window to add more leeway to the verification process.
+Setting the window param will check for the token at the given counter value
+as well as <code>window</code> tokens ahead and <code>window</code> tokens behind (two-sided
+window). See param for more info.</p>
+<p><code>verifyDelta()</code> will return the delta between the counter value of the token
+and the given counter value. For example, if given a time at counter 1000 and
+a window of&nbsp;5, <code>verifyDelta()</code> will look at tokens from 995 to 1005,
+inclusive. In other words, if the time-step is 30 seconds, it will look at
+tokens from 2.5 minutes ago to 2.5 minutes in the future, inclusive.
+If it finds it at counter position 1002, it will return <code>{ delta: 2 }</code>.
+If it finds it at counter position 997, it will return <code>{ delta: -3 }</code>.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>Object</code> - On success, returns an object with the time step
+difference between the client and the server as the <code>delta</code> property (e.g.
+<code>{ delta: 0 }</code>).</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.token</td>
+<td><code>String</code></td>
+<td></td>
+<td>Passcode to validate</td>
+</tr>
+<tr>
+<td>[options.time]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Time in seconds with which to calculate counter value.   Defaults to <code>Date.now()</code>.</td>
+</tr>
+<tr>
+<td>[options.step]</td>
+<td><code>Integer</code></td>
+<td><code>30</code></td>
+<td>Time step in seconds</td>
+</tr>
+<tr>
+<td>[options.epoch]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>Initial time since the UNIX epoch from   which to calculate the counter value. Defaults to 0 (no offset).</td>
+</tr>
+<tr>
+<td>[options.counter]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value, calculated by default.</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode.</td>
+</tr>
+<tr>
+<td>[options.window]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>The allowable margin for the counter.   The function will check "W" codes in the future and the past against the   provided passcode, e.g. if W = 5, and C = 1000, this function will check   the passcode against all One Time Passcodes between 995 and 1005,   inclusive.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr></tbody></table>
+<p><a name="user-content-totp․verify"></a></p>
+<h3><a id="user-content-totpverifyoptions--boolean" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#totpverifyoptions--boolean"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>totp․verify(options) ⇒ <code>Boolean</code></h3>
+<p>Verify a time-based one-time token against the secret and return true if it
+verifies. Helper function for verifyDelta() that returns a boolean instead of
+an object. For more on how to use a window with this, see totp.verifyDelta.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>Boolean</code> - Returns true if the token matches within the given
+window, false otherwise.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.token</td>
+<td><code>String</code></td>
+<td></td>
+<td>Passcode to validate</td>
+</tr>
+<tr>
+<td>[options.time]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Time in seconds with which to calculate counter value.   Defaults to <code>Date.now()</code>.</td>
+</tr>
+<tr>
+<td>[options.step]</td>
+<td><code>Integer</code></td>
+<td><code>30</code></td>
+<td>Time step in seconds</td>
+</tr>
+<tr>
+<td>[options.epoch]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>Initial time since the UNIX epoch from   which to calculate the counter value. Defaults to 0 (no offset).</td>
+</tr>
+<tr>
+<td>[options.counter]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>Counter value, calculated by default.</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode.</td>
+</tr>
+<tr>
+<td>[options.window]</td>
+<td><code>Integer</code></td>
+<td><code>0</code></td>
+<td>The allowable margin for the counter.   The function will check "W" codes in the future and the past against the   provided passcode, e.g. if W = 5, and C = 1000, this function will check   the passcode against all One Time Passcodes between 995 and 1005,   inclusive.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>"ascii"</code></td>
+<td>Key encoding (ascii, hex,   base32, base64).</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr></tbody></table>
+<p><a name="user-content-generateSecret"></a></p>
+<h3><a id="user-content-generatesecretoptions--object--generatedsecret" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#generatesecretoptions--object--generatedsecret"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>generateSecret(options) ⇒ <code>Object</code> | <code><a href="https://github.com/speakeasyjs/speakeasy#GeneratedSecret">GeneratedSecret</a></code></h3>
+<p>Generates a random secret with the set A-Z a-z 0-9 and symbols, of any length
+(default 32). Returns the secret key in ASCII, hexadecimal, and base32 format,
+along with the URL used for the QR code for Google Authenticator (an otpauth
+URL). Use a QR code library to generate a QR code based on the Google
+Authenticator URL to obtain a QR code you can scan into the app.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: A <a href="https://github.com/speakeasyjs/speakeasy#GeneratedSecret"><code>GeneratedSecret</code></a> object</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>[options.length]</td>
+<td><code>Integer</code></td>
+<td><code>32</code></td>
+<td>Length of the secret</td>
+</tr>
+<tr>
+<td>[options.symbols]</td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td>Whether to include symbols</td>
+</tr>
+<tr>
+<td>[options.otpauth_url]</td>
+<td><code>Boolean</code></td>
+<td><code>true</code></td>
+<td>Whether to output a Google   Authenticator-compatible otpauth:// URL (only returns otpauth:// URL, no QR code)</td>
+</tr>
+<tr>
+<td>[options.name]</td>
+<td><code>String</code></td>
+<td></td>
+<td>The name to use with Google Authenticator.</td>
+</tr>
+<tr>
+<td>[options.qr_codes]</td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td>(DEPRECATED. Do not use to prevent   leaking of secret to a third party. Use your own QR code implementation.)   Output QR code URLs for the token.</td>
+</tr>
+<tr>
+<td>[options.google_auth_qr]</td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td>(DEPRECATED. Do not use to   prevent leaking of secret to a third party. Use your own QR code   implementation.) Output a Google Authenticator otpauth:// QR code URL.</td>
+</tr>
+<tr>
+<td>[options.issuer]</td>
+<td><code>String</code></td>
+<td></td>
+<td>The provider or service with which the secret key is associated.</td>
+</tr></tbody></table>
+<p><a name="user-content-generateSecretASCII"></a></p>
+<h3><a id="user-content-generatesecretasciilength-symbols--string" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#generatesecretasciilength-symbols--string"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>generateSecretASCII([length], [symbols]) ⇒ <code>String</code></h3>
+<p>Generates a key of a certain length (default 32) from A-Z, a-z, 0-9, and
+symbols (if requested).</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Returns</strong>: <code>String</code> - The generated key.</p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[length]</td>
+<td><code>Integer</code></td>
+<td><code>32</code></td>
+<td>The length of the key.</td>
+</tr>
+<tr>
+<td>[symbols]</td>
+<td><code>Boolean</code></td>
+<td><code>false</code></td>
+<td>Whether to include symbols in the key.</td>
+</tr></tbody></table>
+<p><a name="user-content-otpauthURL"></a></p>
+<h3><a id="user-content-otpauthurloptions--string" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#otpauthurloptions--string"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>otpauthURL(options) ⇒ <code>String</code></h3>
+<p>Generate a Google Authenticator-compatible otpauth:// URL for passing the
+secret to a mobile device to install the secret.</p>
+<p>Authenticator considers TOTP codes valid for 30 seconds. Additionally,
+the app presents 6 digits codes to the user. According to the
+documentation, the period and number of digits are currently ignored by
+the app.</p>
+<p>To generate a suitable QR Code, pass the generated URL to a QR Code
+generator, such as the <code>qr-image</code> module.</p>
+<p><strong>Kind</strong>: function</p>
+<p><strong>Throws</strong>: Error if secret or label is missing, or if hotp is used and a
+counter is missing, if the type is not one of <code>hotp</code> or <code>totp</code>, if the
+number of digits is non-numeric, or an invalid period is used. Warns if
+the number of digits is not either 6 or 8 (though 6 is the only one
+supported by Google Authenticator), and if the hashihng algorithm is
+not one of the supported SHA1, SHA256, or SHA512.</p>
+<p><strong>Returns</strong>: <code>String</code> - A URL suitable for use with the Google Authenticator.</p>
+<p><strong>See</strong>: <a href="https://github.com/google/google-authenticator/wiki/Key-Uri-Format">https://github.com/google/google-authenticator/wiki/Key-Uri-Format</a></p>
+<table>
+<thead>
+<tr>
+<th>Param</th>
+<th>Type</th>
+<th>Default</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>options</td>
+<td><code>Object</code></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>options.secret</td>
+<td><code>String</code></td>
+<td></td>
+<td>Shared secret key</td>
+</tr>
+<tr>
+<td>options.label</td>
+<td><code>String</code></td>
+<td></td>
+<td>Used to identify the account with which   the secret key is associated, e.g. the user's email address.</td>
+</tr>
+<tr>
+<td>[options.type]</td>
+<td><code>String</code></td>
+<td><code>"totp"</code></td>
+<td>Either "hotp" or "totp".</td>
+</tr>
+<tr>
+<td>[options.counter]</td>
+<td><code>Integer</code></td>
+<td></td>
+<td>The initial counter value, required   for HOTP.</td>
+</tr>
+<tr>
+<td>[options.issuer]</td>
+<td><code>String</code></td>
+<td></td>
+<td>The provider or service with which the   secret key is associated.</td>
+</tr>
+<tr>
+<td>[options.algorithm]</td>
+<td><code>String</code></td>
+<td><code>"sha1"</code></td>
+<td>Hash algorithm (sha1, sha256,   sha512).</td>
+</tr>
+<tr>
+<td>[options.digits]</td>
+<td><code>Integer</code></td>
+<td><code>6</code></td>
+<td>The number of digits for the one-time   passcode. Currently ignored by Google Authenticator.</td>
+</tr>
+<tr>
+<td>[options.period]</td>
+<td><code>Integer</code></td>
+<td><code>30</code></td>
+<td>The length of time for which a TOTP   code will be valid, in seconds. Currently ignored by Google   Authenticator.</td>
+</tr>
+<tr>
+<td>[options.encoding]</td>
+<td><code>String</code></td>
+<td><code>ascii</code></td>
+<td>Key encoding (ascii, hex, base32,   base64). If the key is not encoded in Base-32, it will be reencoded.</td>
+</tr></tbody></table>
+<p><a name="user-content-GeneratedSecret"></a></p>
+<h3><a id="user-content-generatedsecret--object" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#generatedsecret--object"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>GeneratedSecret : <code>Object</code></h3>
+<p><strong>Kind</strong>: global typedef</p>
+<p><strong>Properties</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ascii</td>
+<td><code>String</code></td>
+<td>ASCII representation of the secret</td>
+</tr>
+<tr>
+<td>hex</td>
+<td><code>String</code></td>
+<td>Hex representation of the secret</td>
+</tr>
+<tr>
+<td>base32</td>
+<td><code>String</code></td>
+<td>Base32 representation of the secret</td>
+</tr>
+<tr>
+<td>qr_code_ascii</td>
+<td><code>String</code></td>
+<td>URL for the QR code for the ASCII secret.</td>
+</tr>
+<tr>
+<td>qr_code_hex</td>
+<td><code>String</code></td>
+<td>URL for the QR code for the hex secret.</td>
+</tr>
+<tr>
+<td>qr_code_base32</td>
+<td><code>String</code></td>
+<td>URL for the QR code for the base32 secret.</td>
+</tr>
+<tr>
+<td>google_auth_qr</td>
+<td><code>String</code></td>
+<td>URL for the Google Authenticator otpauth   URL's QR code.</td>
+</tr>
+<tr>
+<td>otpauth_url</td>
+<td><code>String</code></td>
+<td>Google Authenticator-compatible otpauth URL.</td>
+</tr></tbody></table>
+<p><a name="user-content-contributing"></a></p>
+<h2><a id="user-content-contributing" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>Contributing</h2>
+<p>We're very happy to have your contributions in Speakeasy.</p>
+<p><strong>Contributing code</strong> — First, make sure you've added tests if adding new functionality. Then, run <code>npm test</code> to run all the tests to make sure they pass. Next, make a pull request to this repo. Thanks!</p>
+<p><strong>Filing an issue</strong> — Submit issues to the <a href="https://github.com/speakeasyjs/speakeasy">GitHub Issues</a> page.</p>
+<p><strong>Maintainers</strong> —</p>
+<ul>
+<li>Mark Bao (<a href="https://github.com/markbao">markbao</a>)</li>
+<li>Michael Phan-Ba (<a href="https://github.com/mikepb">mikepb</a>)</li>
+</ul>
+<h2><a id="user-content-license" class="anchor" aria-hidden="true" href="https://github.com/speakeasyjs/speakeasy#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>License</h2>
+<p>This project incorporates code from <a href="http://github.com/mikepb/passcode">passcode</a>, which was originally a
+fork of speakeasy, and <a href="https://github.com/guyht/notp">notp</a>, both of which are licensed under MIT.
+Please see the <a href="https://github.com/speakeasyjs/speakeasy/blob/master/LICENSE">LICENSE</a> file for the full combined license.</p>
+<p>Icons created by Gregor Črešnar, iconoci, and Danny Sturgess from the Noun
+Project.</p>
+</article>
+      </div>
+  </div>
+
+
+  </div>
+  <div class="modal-backdrop js-touch-events"></div>
+</div>
+
+    </div>
+  </div>
+
+  </div>
+
+        
+<div class="footer container-lg px-3" role="contentinfo">
+  <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
+    <ul class="list-style-none d-flex flex-wrap ">
+      <li class="mr-3">© 2018 <span title="0.27675s from unicorn-7b4d5c96fc-fskjl">GitHub</span>, Inc.</li>
+        <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
+        <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
+        <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li class="mr-3"><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+        <li><a data-ga-click="Footer, go to help, text:help" href="https://help.github.com/">Help</a></li>
+    </ul>
+
+    <a aria-label="Homepage" title="GitHub" class="footer-octicon mr-lg-4" href="https://github.com/">
+      <svg height="24" class="octicon octicon-mark-github" viewBox="0 0 16 16" version="1.1" width="24" aria-hidden="true"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path></svg>
+</a>
+   <ul class="list-style-none d-flex flex-wrap ">
+        <li class="mr-3"><a data-ga-click="Footer, go to contact, text:contact" href="https://github.com/contact">Contact GitHub</a></li>
+        <li class="mr-3"><a href="https://github.com/pricing" data-ga-click="Footer, go to Pricing, text:Pricing">Pricing</a></li>
+      <li class="mr-3"><a href="https://developer.github.com/" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li class="mr-3"><a href="https://training.github.com/" data-ga-click="Footer, go to training, text:training">Training</a></li>
+        <li class="mr-3"><a href="https://blog.github.com/" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a data-ga-click="Footer, go to about, text:about" href="https://github.com/about">About</a></li>
+
+    </ul>
+  </div>
+  <div class="d-flex flex-justify-center pb-6">
+    <span class="f6 text-gray-light"></span>
+  </div>
+</div>
+
+
+
+  <div id="ajax-error-message" class="ajax-error-message flash flash-error">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <button type="button" class="flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+    You can’t perform that action at this time.
+  </div>
+
+
+    
+    <script crossorigin="anonymous" integrity="sha512-5d/Pd6srLuCtspb7kurP3J3EoU8xVGNQ9rf5mSUV5fYS4g570WZsMwxnyHBP36fMJO+cdpXVVmnNV8xnsEv06A==" type="application/javascript" src="./SpeakEasy_github_files/frameworks-9136c198b33444d1d51cdf326a4baf7a.js.download"></script>
+    
+    <script crossorigin="anonymous" async="async" integrity="sha512-jzKGz/76bAIzd5uhE4UU4HCZrjw8y4FsUg5IEEa/YwLBDoGIj49Za2D90I63sHZtOlPFDZnayivdHwAz1iuTDg==" type="application/javascript" src="./SpeakEasy_github_files/github-c69522571c232007413ef6dc3a19a40e.js.download"></script>
+    
+    
+    
+  <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner d-none">
+    <svg class="octicon octicon-alert" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg>
+    <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="https://github.com/speakeasyjs/speakeasy">Reload</a> to refresh your session.</span>
+    <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="https://github.com/speakeasyjs/speakeasy">Reload</a> to refresh your session.</span>
+  </div>
+  <div class="facebox" id="facebox" style="display:none;">
+  <div class="facebox-popup">
+    <div class="facebox-content" role="dialog" aria-labelledby="facebox-header" aria-describedby="facebox-description">
+    </div>
+    <button type="button" class="facebox-close js-facebox-close" aria-label="Close modal">
+      <svg class="octicon octicon-x" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7.48 8l3.75 3.75-1.48 1.48L6 9.48l-3.75 3.75-1.48-1.48L4.52 8 .77 4.25l1.48-1.48L6 6.52l3.75-3.75 1.48 1.48L7.48 8z"></path></svg>
+    </button>
+  </div>
+</div>
+
+  <template id="site-details-dialog"></template>
+
+  <div class="Popover js-hovercard-content position-absolute" style="display: none; outline: none;" tabindex="0">
+  <div class="Popover-message Popover-message--bottom-left Popover-message--large Box box-shadow-large" style="width:360px;"></div>
+</div>
+
+<div id="hovercard-aria-description" class="sr-only">
+  Press h to open a hovercard with more details.
+</div>
+
+
+  
+
+
+</body></html>

@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="style_home.css">
+</head>
+<body class="font_all" style="background-color:dodgerblue;">
+    <div id="top_bar">
+        <div class="bar">
+            <div style="float:left;">
+                <h1 class="top_heading" style="font-size:60px">
+                    Github
+                </h1>
+                <h2 class="top_heading" style="font-size:40px">
+                    Cheatsheet
+                </h2>
+            </div>
+            <div style="float:right; margin:40px; margin-right:60px;">
+                <img src="github_logo.png" height="120" width="120" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <div style="width:100%">
+
+        <div id="install_git" class="content_boxes">
+            <h2>
+                INSTALL GIT
+            </h2>
+            <p>
+                GitHub provides desktop clients that include a graphical user
+                interface for the most common repository actions and an automatically
+                updating command line edition of Git for advanced scenarios.
+            </p>
+            <h3>
+                Github for windows
+            </h3>
+            <p>
+                https://windows.github.com
+            </p>
+            <h3>
+                Github for Mac
+            </h3>
+            <p>
+                https://mac.github.com
+            </p>
+            <p>
+                Git distributions for Linux and POSIX systems are available on the
+                official Git SCM web site.
+            </p>
+            <h3>
+                Git for all platforms
+            </h3>
+            <p>
+                http://git-scm.com
+            </p>
+        </div>
+
+        <div id="group_changes" class="content_boxes">
+            <h2>
+                GROUP CHANGES
+            </h2>
+            <p>
+                Name a series of commits and combine completed efforts
+            </p>
+            <h3>
+                $ git branch
+            </h3>
+            <p>
+                Lists all local branches in the current repository
+            </p>
+            <h3>
+                $ git branch [branch-name]
+            </h3>
+            <p>
+                Creates a new branch
+            </p>
+            <h3>
+                $ git checkout [branch-name]
+            </h3>
+            <p>
+                Switches to the specified branch and updates the working directory
+            </p>
+            <h3>
+                $ git merge [branch]
+            </h3>
+            <p>
+                Combines the specified branch’s history into the current branch
+            </p>
+            <h3>
+                $ git branch -d [branch-name]
+            </h3>
+            <p>
+                Deletes the specified branch
+            </p>
+        </div>
+
+        <div id="make_changes" class="content_boxes">
+            <h2>
+                MAKE CHANGES
+            </h2>
+            <p>
+                Review edits and craft a commit transaction
+            </p>
+            <h3>
+                $ git status
+            </h3>
+            <p>
+                Lists all new or modified files to be committed
+            </p>
+            <h3>
+                $ git diff
+            </h3>
+            <p>
+                Shows file differences not yet staged
+            </p>
+            <h3>
+                $ git add [file]
+            </h3>
+            <p>
+                Snapshots the file in preparation for versioning
+            </p>
+            <h3>
+                $ git diff --staged
+            </h3>
+            <p>
+                Shows file differences between staging and the last file version
+            </p>
+            <h3>
+                $ git reset [file]
+            </h3>
+            <p>
+                Unstages the file, but preserve its contents
+            </p>
+            <h3>
+                $ git commit -m "[descriptive message]"
+            </h3>
+            <p>
+                Records file snapshots permanently in version history
+            </p>
+        </div>
+
+
+        <div id="save_fragments" class="content_boxes">
+            <h2>
+                SAVE FRAGMENTS
+            </h2>
+            <p>
+                Shelve and restore incomplete changes
+            </p>
+            <h3>
+                $ git stash
+            </h3>
+            <p>
+                Temporarily stores all modified tracked files
+            </p>
+            <h3>
+                $ git stash pop
+            </h3>
+            <p>
+                Restores the most recently stashed files
+            </p>
+            <h3>
+                $ git stash list
+            </h3>
+            <p>
+                Lists all stashed changesets
+            </p>
+            <h3>
+                $ git stash drop
+            </h3>
+            <p>
+                Discards the most recently stashed changeset
+            </p>
+        </div>
+
+        <div id="review_hisotry" class="content_boxes">
+            <h2>
+                REVIEW HISTORY
+            </h2>
+            <p>
+                Browse and inspect the evolution of project files
+            </p>
+            <h3>
+                $ git log
+            </h3>
+            <p>
+                Lists version history for the current branch
+            </p>
+            <h3>
+                $ git log --follow [file]
+            </h3>
+            <p>
+                Lists version history for a file, including renames
+            </p>
+            <h3>
+                $ git diff [first-branch]...[second-branch]
+            </h3>
+            <p>
+                Shows content differences between two branches
+            </p>
+            <h3>
+                $ git show [commit]
+            </h3>
+            <p>
+                Outputs metadata and content changes of the specified commit
+            </p>
+        </div>
+
+        <div id="sync_changes" class="content_boxes">
+            <h2>
+                SYNCHRONISE CHANGES
+            </h2>
+            <p>
+                Register a repository bookmark and exchange version history
+            </p>
+            <h3>
+                $ git fetch [bookmark]
+            </h3>
+            <p>
+                Downloads all history from the repository bookmark
+            </p>
+            <h3>
+                $ git merge [bookmark]/[branch]
+            </h3>
+            <p>
+                Combines bookmark’s branch into current local branch
+            </p>
+            <h3>
+                $ git push [alias] [branch]
+            </h3>
+            <p>
+                Uploads all local branch commits to GitHub
+            </p>
+            <h3>
+                $ git pull
+            </h3>
+            <p>
+                Downloads bookmark history and incorporates changes
+            </p>
+        </div>
+
+
+        <div id="refactor_filenames" class="content_boxes">
+            <h2>
+                REFACTOR FILENAMES
+            </h2>
+            <p>
+                Relocate and remove versioned files
+            </p>
+            <h3>
+                $ git rm [file]
+            </h3>
+            <p>
+                Deletes the file from the working directory and stages the deletion
+            </p>
+            <h3>
+                $ git rm --cached [file]
+            </h3>
+            <p>
+                Removes the file from version control but preserves the file locally
+            </p>
+            <h3>
+                $ git mv [file-original] [file-renamed]
+            </h3>
+            <p>
+                Changes the file name and prepares it for commit
+            </p>
+        </div>
+
+        <div id="supress_tracking" class="content_boxes">
+            <h2>
+                SUPRESS TRACKING
+            </h2>
+            <p>
+                Exclude temporary files and paths
+            </p>
+            <h3>
+                *.log <br />
+                build/ <br />
+                temp-*
+            </h3>
+            <p>
+                A text file named ".gitignore" suppresses accidental versioning of
+                files and paths matching the specified patterns
+            </p>
+            <h3>
+                $ git ls-files --other --ignored --exclude-standard
+            </h3>
+            <p>
+                Lists all ignored files in this project
+            </p>
+        </div>
+
+        <div id="configure_tooling" class="content_boxes">
+            <h2>
+                CONFIGURE TOOLING
+            </h2>
+            <p>
+                Configure user information for all local repositories
+            </p>
+            <h3>
+                $ git config --global user.name "[name]"
+            </h3>
+            <p>
+                Sets the name you want attached to your commit transactions
+            </p>
+            <h3>
+                $ git config --global user.email "[email address]"
+            </h3>
+            <p>
+                Sets the email you want attached to your commit transactions
+            </p>
+            <h3>
+                $ git config --global color.ui auto
+            </h3>
+            <p>
+                Enables helpful colorization of command line output
+            </p>
+        </div>
+
+
+        <div id="create_repo" class="content_boxes">
+            <h2>
+                CREATE REPOSITORIES
+            </h2>
+            <p>
+                Start a new repository or obtain one from an existing URL
+            </p>
+            <h3>
+                $ git init [project-name]
+            </h3>
+            <p>
+                Creates a new local repository with the specified name
+            </p>
+            <h3>
+                $ git clone [url]
+            </h3>
+            <p>
+                Downloads a project and its entire version history
+            </p>
+        </div>
+
+        <div id="redo_commits" class="content_boxes">
+            <h2>
+                REDO COMMITS
+            </h2>
+            <p>
+                Erase mistakes and craft replacement history
+            </p>
+            <h3>
+                $ git reset [commit]
+            </h3>
+            <p>
+                Undoes all commits after [commit], preserving changes locally
+            </p>
+            <h3>
+                $ git reset --hard [commit]
+            </h3>
+            <p>
+                Discards all history and changes back to the specified commit
+            </p>
+        </div>
+
+    </div>
+
+
+
+</body>
+</html>
